@@ -20,6 +20,12 @@ public class EmployeeController {
 		anEmployee.setEmpName("Sujan");
 		anEmployee.setEmpPhone("9804373727");
 		employees.add(anEmployee);
+		
+		
+		Employee anEmployee1 = new Employee();
+		anEmployee1.setEmpName("Bisu");
+		anEmployee1.setEmpPhone("9038159969");
+		employees.add(anEmployee1);
 		return employees;
 	}
 
